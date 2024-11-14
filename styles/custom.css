@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sliderContainer{
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+.sliderContainer::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.sliderItem{
+    scroll-snap-align: start;
+}
+.a{
+    @apply bg-orange-500
+}
